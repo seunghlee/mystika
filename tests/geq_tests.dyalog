@@ -1,4 +1,4 @@
-﻿:Namespace geq_tests
+:Namespace geq_tests
 
 ⎕IO ⎕ML ⎕WX←0 1 3
 

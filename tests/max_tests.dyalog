@@ -1,0 +1,12 @@
+:Namespace max_tests
+
+⎕IO ⎕ML ⎕WX←0 1 3
+
+X←{⊢#.UT.expect←⍵} ⋄ M←#.mystika 
+
+MAX∆01_TEST←{_←X 421983711 ⋄ ⍪¨(⊂9⍴16)⊤¨⊃M.max,16 93340665 421983711}}
+MAX∆02_TEST←{_←X 421983711 ⋄ ⊃M.max 421983711 93340665}}
+MAX∆03_TEST←{_←X 93340665 ⋄ ⊃M.max 93340665 93340665}}
+MAX∆04_TEST←{_←X 93340665 ⋄ ⊃M.max 93340665 93340665}}
+
+:EndNamespace
